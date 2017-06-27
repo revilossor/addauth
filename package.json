@@ -1,0 +1,11 @@
+{
+  "name": "auth-header",
+  "version": "0.0.0",
+  "description": "adds basic auth header to requests",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "oliver.ross@hotmail.com",
+  "license": "ISC"
+}
