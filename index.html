@@ -1,0 +1,27 @@
+<html>
+  <head>
+    <title>test addauth</title>
+  </head>
+
+  <body>
+    <button name="button" onclick="get_xmlhttp()">XMLHttpRequest</button>
+    <button name="button" onclick="get_fetch()">fetch</button>
+  </body>
+
+  <script src="./addauth.js" type="application/javascript"></script>
+
+  <script>
+    addauth('user', 'pass');
+    var url = 'https://httpbin.org/';
+    function get_xmlhttp() {
+      var xhr = new XMLHttpRequest();
+      xhr.open("GET", url);
+      xhr.send();
+    };
+    function get_fetch() {
+      fetch(url);
+    }
+
+  </script>
+
+</html>
